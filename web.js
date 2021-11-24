@@ -45,7 +45,7 @@ web.buildFrame("body", {
         <div class="container text-white text-center" id="pro">
        
                 <div class="container bg-danger pt-3 pb-3 text-center text-dark" id="frame">
-               <strong class="text-white"> Languages Used...</strong><br/>
+               <strong class="text-white"> Languages Used</strong><br/>
                 Javascript<br/>
 
                 <br/>
@@ -71,7 +71,7 @@ web.buildFrame("body", {
         <div class="container text-white text-center" id="pro">
        
                 <div class="container bg-danger pt-3 pb-3 text-center text-dark" id="frame">
-               <strong class="text-white"> Languages Used...</strong><br/>
+               <strong class="text-white"> Languages Used</strong><br/>
                 Javascript<br/>
 
                 <br/>
@@ -86,7 +86,7 @@ web.buildFrame("body", {
             <div class="container pt-3 pb-3 text-center">
             <strong>FRAMEJS</strong>
             </div><br/>
-            <p>A javascript<br/> MICRO FRAMEWORK<br/> for building simple UI's<br/> fast and understandable<br/>syntax. this portfolio<br/>
+            <p>A javascript<br/> MICRO FRAMEWORK<br/> for building simple UI's<br/> <br/>this portfolio<br/>
             was built with it as well </p><br/>
         
             
@@ -97,20 +97,20 @@ web.buildFrame("body", {
         <div class="container text-white text-center" id="pro">
        
                 <div class="container bg-danger pt-3 pb-3 text-center text-dark" id="frame">
-               <strong class="text-white"> Languages Used...</strong><br/>
+               <strong class="text-white"> Languages Used</strong><br/>
                 Javascript>>PHP>>HTML<br/>
-                CSS>>>MYSQL<br/>
-                BOOTSTRAP 5>>>AJAX
+                CSS>>MYSQL<br/>
+                BOOTSTRAP 5>>AJAX
                 <br/>
                 <button id="dudo" class="btn btn-dark text-white text-center">View UI</button><br/>
                 
-                sorry,its built with <br/>PHP and isn't hosted<br/>
+                sorry,it<br/>isn't hosted<br/>
                 
                 </div>
             <div class="container pt-3 pb-3 text-center">
             <strong>DUDO</strong>
             </div><br/>
-            <p>A Chat Application<br/>Built on Framejs<br/>Bootstrap 5>Vue and php<br/>Amazing</p><br/>
+            <p>A Chat Application<br/>Built on Framejs<br/>Bootstrap 5<br/>Vue and php<br/>Amazing</p><br/>
             
             
         </div>
@@ -121,7 +121,7 @@ web.buildFrame("body", {
         <div class="container text-white text-center" id="pro">
        
         <div class="container bg-danger pt-3 pb-3 text-center text-dark" id="frame">
-       <strong class="text-white"> Languages Used...</strong><br/>
+       <strong class="text-white"> Languages Used</strong><br/>
         Javascript<br/>
 
         <br/>
@@ -134,7 +134,7 @@ web.buildFrame("body", {
     <div class="container pt-3 pb-3 text-center">
     <strong>ARCHJS</strong>
     </div><br/>
-    <p>A javascript<br/> LIIBRARY<br/> for sending Ajax Reequest<br/> in simpler format</p><br/>
+    <p>A javascript<br/> LIIBRARY<br/> for sending <br/>Ajax Request<br/> in simpler format</p><br/>
 
     
 </div>
@@ -153,7 +153,7 @@ web.buildFrame("body", {
                 <br/>
                 <button id="vim" class="btn btn-dark text-white text-center">View UI</button><br/>
                 
-                sorry,its built with <br/>PHP and isn't hosted<br/>
+                sorry it <br/>isn't hosted<br/>
                 
                 </div>
             <div class="container pt-3 pb-3 text-center">
