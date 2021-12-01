@@ -134,7 +134,7 @@ web.buildFrame("body", {
     <div class="container pt-3 pb-3 text-center">
     <strong>ARCHJS</strong>
     </div><br/>
-    <p>A javascript<br/> LIIBRARY<br/> for sending <br/>Ajax Request<br/> in simpler format</p><br/>
+    <p>A javascript<br/> LIBRARY<br/> for sending <br/>Ajax Request<br/> in simpler format</p><br/>
 
     
 </div>
@@ -211,7 +211,7 @@ web.buildFrame("body", {
 <strong>PHP</strong><br/>
 <strong>MYSQL</strong><br/>
 <strong>DRAGON</strong><br/>
-
+<strong>REACTNATIVE</strong>
 <br/>
 <button class="btn btn-danger text-center text-white" id="modemail"><i class="fas fa-envelope"></i>&ThinSpace;Send Mail</button>
 <button class="btn btn-danger text-center text-white" id="modasap"><i class="fab fa-whatsapp"></i>&ThinSpace;Whatsapp</button>
