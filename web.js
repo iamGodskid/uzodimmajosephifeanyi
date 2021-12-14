@@ -250,10 +250,10 @@ BUTTON TO CONTACT ME</strong>
 });
 web.bindEvent("#modasap", "click", {
     event: function(){
-        document.querySelector("#modasap").innerHTML = "<i class='fas fa-phone'></i>&ThinSpace;+2347040335014";
+        document.querySelector("#modasap").innerHTML = "<i class='fas fa-phone'></i>&ThinSpace;+2348107411921";
         const x = confirm("would you like us to redirect you to whatsapp");
         if(x != false){
-            window.open("https://wa.me/07040335014");
+            window.open("https://wa.me/08107411921");
     
         }
     }
