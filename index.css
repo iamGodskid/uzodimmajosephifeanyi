@@ -2,199 +2,195 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    max-width: 100%;
-    overflow-x: hidden;
-    white-space: nowrap;
+  background: rgb(220,220,220);
 }
-#header{
-    max-width: 100%;
-    height: 80px;
-    border: 1px solid transparent;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    border-bottom: 1px solid darkred;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#head{
+  height: 250px;
+  width: 100%;
+  border: 1px solid transparent;
+background-image: url("bck.jpg");
+background-size: cover;
+padding-top: 20px;
+margin-top: 20px;
 }
-#logo{
-    float: left;
-    max-width: fit-content;
-    max-height: fit-content;
-    position: relative;
-    padding: 0px;
-    font-size: 13px;
+#head>img{
+  float: right;
+  height: 130px;
+  width: 130px;
+  float: right;
+  border: 1px solid transparent;
+  margin-top: 50px;
+  border-top-left-radius: 50%;
 }
-nav{
-    max-width: fit-content;
-    max-height: fit-content;
-    float: right;
-position: relative;
+#quotes{
+  height: 130px;
+  border: 1px solid transparent;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+  float: left;
+  width: 45%;
+  margin-top: 25px;
 }
-nav>a{
-    padding: 5px;
-    background: transparent;
-    color:  white;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 13px;
-    transition-duration: 1s;
-    text-decoration: none;
+#nav{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: rgb(10,10,10);
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(200,200,200);
 }
-nav>a:hover{
-    background: darkred;
-    color: white;
+#nav>nav{
+  float: right;
+}
+#nav>nav>a{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid transparent;
+ transition-duration: 1s;
+  }
+#nav>nav>a:hover{
+  background: rgb(150,150,150);
+  color: white;
+  opacity: 0.6;
+}
+#row{
+  width: 100%;
+  border: 1px solid transparent;
+   background: transparent;
+   margin: auto;
+}
+#row2{
+  width: 100%;
+ height: 200px;
+  margin: auto;
+  background: transparent;
+  border: 1px solid transparent;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: block;
+}
+#row2>div{
+  width: 250px;
+  border: 1px solid transparent;
+ background: dodgerblue;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px silver;
+line-height: 2em;
+display: inline-block;
+}
+#row2>div>img{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+#row2>div>strong{
+ word-spacing: 0px;
+  line-break: auto;
+}
+#row>div{
+  height: 200px;
+  width: 250px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px silver;
+line-height: 5em;
+margin: auto;
+margin-bottom: 20px;
+}
+.row>div>img{
+  height: 70%;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.row>div>iframe{
+  height: 60%;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+#projects>.row>div{
+  height: 250px;
+}
+.row>div>strong{
+  font-family: Monospace;
+  font-size: 12px;
 }
 #services{
-max-height: fit-content;
-max-width: 100%;
-}
-#scroller{
-max-width: 100%;
-max-height: 300px;
-background: transparent;
-}
-#info{
-    max-width: 100%;
-    max-height: 200px;
-    background: transparent;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-}
-#info::-webkit-scrollbar{
-    width: 2px;
-    background-color: transparent;
-    opacity: 0.86;
-  }
-  #info::-webkit-scrollbar-track{
-  box-shadow: 0px 2px 5px transparent;
-  width: 1px;
-  }
-  #info::-webkit-scrollbar-thumb{
-  background-color: transparent;
-  outline: 1px solid transparent;
-  }
-  #info::-webkit-scrollbar-button{
-    width: 5px;
-    background-color: transparent;
-    color: transparent;
-  }
-  
-#inf{
-    max-height: 150px;
-    background: transparent;
-    padding: 5em;
-    width: 100%;
-    display: inline-block;
-}
-#inf>i{
-    font-size: 8px;
-}
-#social{
-    float: left;
-    position: fixed;
-    top: 45%;
-    border: 1px solid transparent;
-    background: white;
-    padding: 5px;
-        font-size: 20px;
-font-weight: bold;
-color: black;
-border-radius: 35%;
+  background: rgb(210, 210, 210);
+height: fit-content;
+padding: 3px;
 }
 #projects{
-    max-height: fit-content;
-    width: 100%;
+  padding: 3px;
+  height: fit-content;
 }
-#project{
-    width: 100%;
-    height: 300px;
-    background: transparent;
-    overflow-y: hidden;
-    overflow-x: auto;
-    white-space: nowrap;
-    scroll-behavior: smooth;
+#spec{
+  padding: 10px;
+ border: 1px solid transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  text-shadow: 1px 2px 2px silver;
+  font-family: Monospace;
+  float: right;
+  font-size: 12px;
+  transition-duration: 1s;
 }
-#project::-webkit-scrollbar{
-    width: 2px;
-    background-color: transparent;
-    opacity: 0.86;
-  }
-  #project::-webkit-scrollbar-track{
-  box-shadow: 0px 2px 5px transparent;
-  width: 1px;
-  }
-  #project::-webkit-scrollbar-thumb{
-  background-color: transparent;
-  outline: 1px solid darkred;
-  }
-  #project::-webkit-scrollbar-button{
-    width: 5px;
-    background-color: transparent;
-    color: transparent;
-  }
-  
-#pro{
-    height: 300px;
-    background: transparent;
-    padding: 15px;
-    max-width: 100%;
-    display: inline-block;
+#spec:hover{
+  opacity: 0.6;
+  color: white;
 }
-#pro>.container>strong{
-    color: dodgerblue;
+#modal{
+  display: none;
+  height: 250px;
+  width: 70%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: auto;
 }
-#pro>i{
-    font-size: 9px;
+#modal>.modal-footer{
+  height: 50px;
+  border: 1px solid transparent;
 }
-#frame{
-    max-width: 50%;
-    height: 300px;
-    float: left;
-    padding: 3px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    font-family: monospace;
-    font-size: 15px;
-    margin-right: 5px;
+#about{
+  width: 100%;
 }
-#frame>button{
-margin-bottom: 5px;
+#my{
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 50%;
 }
-#frame>button, #frame>a>button{
-    height: 35px;
-    font-size: 13px;
+#soc{
+  font-size: 35px;
+  color: white;
 }
-
-iframe{
-    width: 100%;
-    max-height: 80%;
+#a{
+  text-decoration: none;
+  color: white;
 }
-#aboutme{
-    max-width: 100%;
+#quotes{
+  font-family: Sans-Serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2em;
+  text-shadow: 2px 2px 2px silver;
+  padding: 5px;
 }
-#prof{
-    max-width: 100%;
-    border: transparent;
-    background: transparent;
-    float: left;
+#social{
+  position: absolute;
+  top: 220px;
+  right: 0px;
+  left: 0px;
 }
-img{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 1px solid transparent;
-}
-#mymodal{
-    display: none;
-}
-#iframe{
-    height: 550px;
-    width: 100%;
-    border: 1px solid transparent;
-    border-radius: 8px;
+#social>a{
+  font-size: 30px;
+  margin-right: 10px;
 }
