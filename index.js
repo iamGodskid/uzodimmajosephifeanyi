@@ -1,4 +1,4 @@
-use strict";
+"use strict";
 const modals={
   modal_text:[
   "An ajax replica<br/>javascript library<br/>for sending http<br/>request to server",
