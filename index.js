@@ -5,7 +5,7 @@ const modals={
   "A javascript <br/>micro framework <br/>for building UI",
   "A small<br/>promised based<br/>javascript encyption<br/>library<br/>for encrypting data"
   ],
- modal_link: ["https://github.com/iamGodkid/ArchJS", "https://github.com/iamGodkid/GrealJS", "https://github.com/iamGodkid/LilcryptJS"], 
+ modal_link: ["https://github.com/iamGodskid/ArchJS", "https://github.com/iamGodskid/GrealJS", "https://github.com/iamGodskid/LilcryptJS"], 
 }
 function pop(n){
   const all=document.body.querySelectorAll("strong");
