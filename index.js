@@ -3,9 +3,11 @@ const modals={
   modal_text:[
   "An ajax replica<br/>javascript library<br/>for sending http<br/>request to server",
   "A javascript <br/>micro framework <br/>for building UI",
-  "A small<br/>promised based<br/>javascript encyption<br/>library<br/>for encrypting data"
-  ],
- modal_link: ["https://github.com/iamGodskid/ArchJS", "https://github.com/iamGodskid/GrealJS", "https://github.com/iamGodskid/LilcryptJS"], 
+  "A small<br/>promised based<br/>javascript encyption<br/>library<br/>for encrypting data",
+
+  "A small <br/> file type with<br/>parser for <br/>data storage"
+],
+ modal_link: ["https://github.com/iamGodskid/ArchJS", "https://github.com/iamGodskid/GrealJS", "https://github.com/iamGodskid/LilcryptJS",   "https://github.com/iamGodskid/Javascript_storage_notation" ], 
 }
 function pop(n){
   const all=document.body.querySelectorAll("strong");
@@ -26,6 +28,12 @@ function pop(n){
   if(elem == "lilcryptjs"){
      targ.innerHTML = modals.modal_text[2];
      t_link.href = modals.modal_link[2]
+      
+  }
+
+if(elem == "jssn"){
+     targ.innerHTML = modals.modal_text[3];
+     t_link.href = modals.modal_link[3]
       
   }
 }
