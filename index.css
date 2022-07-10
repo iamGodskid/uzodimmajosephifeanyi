@@ -94,14 +94,16 @@ display: inline-block;
   line-break: auto;
 }
 #row>div{
-  height: 200px;
-  width: 250px;
+  display:inline-block;
+height: 200px;
+  max-width: 250px;
   border: 1px solid transparent;
   border-radius: 5px;
   box-shadow: 4px 4px 2px silver;
 line-height: 5em;
 margin: auto;
 margin-bottom: 20px;
+
 }
 .row>div>img{
   height: 70%;
